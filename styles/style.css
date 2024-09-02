@@ -1,0 +1,23 @@
+
+@import url("reset.css");
+@import url("header.css");
+@import url("hoje.css");
+
+:root {
+    --branco: #FFFFFF;
+    --escura: #333333;
+    --fundo: #F9F7FE;
+    --meioCinza: #464646;
+    --laranja: #FFB050; 
+    --fonte-padrao: "Montserrat", sans-serif; 
+    --quaseBranco: #ECECEC; 
+    --azul: #4894FF;
+
+}
+
+body {
+    background-color: var(--fundo);
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: var(--fonte-padrao);
+}

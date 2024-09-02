@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas Agendadas</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="status-bar">
+            <div>
+                <span class="status-bar__hora-atual">03:33</span>
+            </div>
+            <div class="status-bar__imagens">
+                <img src="./assets/signal_cellular_4_bar.svg" class="status-bar__imagem">
+                <img src="./assets/battery_full.svg" class="status-bar__imagem">
+                <img src="./assets/wifi.svg" class="status-bar__imagem">
+            </div>
+        </div>
+        <div class="cabecalho__resto">
+            <div class="cabecalho__resto-avatar">
+                <img src="./assets/Avatar_home.svg">
+                <div>
+                    <h1 class="cabecalho__resto-avatar-ola">Olá Sônia</h1>
+                    <span class="cabecalho__resto-avatar-qtd">Mais 3 consultas hoje</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="dia__barra">
+            <span class="dia__barra-texto">Hoje</span>
+        </div>
+        <div class="dia__marcacoes">
+            <div class="dia__marcacao__remota">
+                <div class="dia__marcacao__cabecalho">
+                    <div class="dia__marcacao__cabecalho-divisao">
+                        <img src="./assets/Foto Luciana Dias.svg">
+                        <div>
+                            <span class="nome-paciente">Luciana Dias</span>
+                            <div class="define__natureza-consulta">
+                                <img src="./assets/Camera.svg">
+                                <p class="tipo-consulta">Consulta remota</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/Chatcirculo1.svg">
+                </div>
+                <div class="dia__marcacao__consulta-traco"></div>
+                <div class="dia__marcacao__resto">
+                    <span>14:00 - 15:00 (1 hora)</span>
+                    <div class="dia__marcacao__resto__btns-ligar">
+                        <button class="btn__ligar-video" type="button" onclick="">Ligar por vídeo</button>
+                        <button class="btn__ligar-audio" type="button" onclick="">Ligar por aúdio</button>
+                    </div>
+                </div>
+            </div>
+            <div class="dia__marcacao__local">
+                <div class="dia__marcacao__cabecalho">
+                    <div class="dia__marcacao__cabecalho-divisao">
+                        <img src="./assets/Foto Larissa Santana.svg">
+                        <div>
+                            <span class="nome-paciente">Larissa Santana</span>
+                            <div class="define__natureza-consulta">
+                                <img src="./assets/pin.svg">
+                                <p class="tipo-consulta">Consulta Local</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/Chatcirculo1.svg">
+                </div>
+                <div class="dia__marcacao__consulta-traco"></div>
+                <div class="dia__marcacao__resto">
+                    <span>16:00 - 17:00 (1 hora)</span>
+                    <div class="dia__marcacao__resto__btn-endereco">
+                        <button class="btn__ligar-ver-endereco" type="button" onclick="">Ver endereço</button>
+                    </div>
+                </div>
+            </div>
+            <div class="dia__marcacao__remota">
+                <div class="dia__marcacao__cabecalho">
+                    <div class="dia__marcacao__cabecalho-divisao">
+                        <img src="./assets/Foto Marcos Correia.svg">
+                        <div>
+                            <span class="nome-paciente">Marcos Correia</span>
+                            <div class="define__natureza-consulta">
+                                <img src="./assets/Camera.svg">
+                                <p class="tipo-consulta">Consulta remota</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/Chatcirculo1.svg">
+                </div>
+                <div class="dia__marcacao__consulta-traco"></div>
+                <div class="dia__marcacao__resto">
+                    <span>17:20 - 18:00 (40 minutos)</span>
+                    <div class="dia__marcacao__resto__btns-ligar">
+                        <button class="btn__ligar-video" type="button" onclick="">Ligar por vídeo</button>
+                        <button class="btn__ligar-audio" type="button" onclick="">Ligar por aúdio</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Amanhã -->        
+        <div class="dia__barra">
+            <span class="dia__barra-texto">Amanhã</span>
+        </div>
+        <div class="dia__marcacoes">
+            <div class="dia__marcacao__local">
+                <div class="dia__marcacao__cabecalho">
+                    <div class="dia__marcacao__cabecalho-divisao">
+                        <img src="./assets/Foto Clara Lemos.svg">
+                        <div>
+                            <span class="nome-paciente">Clara Lemos</span>
+                            <div class="define__natureza-consulta">
+                                <img src="./assets/pin.svg">
+                                <p class="tipo-consulta">Consulta Local</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/Chatcirculo1.svg">
+                </div>
+                <div class="dia__marcacao__consulta-traco"></div>
+                <div class="dia__marcacao__resto">
+                    <span>16:00 - 17:00 (1 hora)</span>
+                    <div class="dia__marcacao__resto__btn-endereco">
+                        <button class="btn__ligar-ver-endereco" type="button" onclick="">Ver endereço</button>
+                    </div>
+                </div>
+            </div>
+            <div class="dia__marcacao__remota">
+                <div class="dia__marcacao__cabecalho">
+                    <div class="dia__marcacao__cabecalho-divisao">
+                        <img src="./assets/Foto Luciana Dias.svg">
+                        <div>
+                            <span class="nome-paciente">Luciana Dias</span>
+                            <div class="define__natureza-consulta">
+                                <img src="./assets/Camera.svg">
+                                <p class="tipo-consulta">Consulta remota</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/Chatcirculo1.svg">
+                </div>
+                <div class="dia__marcacao__consulta-traco"></div>
+                <div class="dia__marcacao__resto">
+                    <span>14:00 - 15:00 (1 hora)</span>
+                    <div class="dia__marcacao__resto__btns-ligar">
+                        <button class="btn__ligar-video" type="button" onclick="">Ligar por vídeo</button>
+                        <button class="btn__ligar-audio" type="button" onclick="">Ligar por aúdio</button>
+                    </div>
+                </div>
+            </div>
+            <div class="dia__marcacao__remota">
+                <div class="dia__marcacao__cabecalho">
+                    <div class="dia__marcacao__cabecalho-divisao">
+                        <img src="./assets/Foto Marcos Correia.svg">
+                        <div>
+                            <span class="nome-paciente">Marcos Correia</span>
+                            <div class="define__natureza-consulta">
+                                <img src="./assets/Camera.svg">
+                                <p class="tipo-consulta">Consulta remota</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/Chatcirculo1.svg">
+                </div>
+                <div class="dia__marcacao__consulta-traco"></div>
+                <div class="dia__marcacao__resto">
+                    <span>17:20 - 18:00 (40 minutos)</span>
+                    <div class="dia__marcacao__resto__btns-ligar">
+                        <button class="btn__ligar-video" type="button" onclick="">Ligar por vídeo</button>
+                        <button class="btn__ligar-audio" type="button" onclick="">Ligar por aúdio</button>
+                    </div>
+                </div>
+            </div>
+            <div class="dia__marcacao__local">
+                <div class="dia__marcacao__cabecalho">
+                    <div class="dia__marcacao__cabecalho-divisao">
+                        <img src="./assets/Foto Larissa Santana.svg">
+                        <div>
+                            <span class="nome-paciente">Larissa Santana</span>
+                            <div class="define__natureza-consulta">
+                                <img src="./assets/pin.svg">
+                                <p class="tipo-consulta">Consulta Local</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/Chatcirculo1.svg">
+                </div>
+                <div class="dia__marcacao__consulta-traco"></div>
+                <div class="dia__marcacao__resto">
+                    <span>16:00 - 17:00 (1 hora)</span>
+                    <div class="dia__marcacao__resto__btn-endereco">
+                        <button class="btn__ligar-ver-endereco" type="button" onclick="">Ver endereço</button>
+                    </div>
+                </div>
+            </div>
+<!-- Quarta-feira -->        
+        <div class="dia__barra">
+            <span class="dia__barra-texto">Quarta-feira</span>
+        </div>
+        <div class="dia__marcacao__remota">
+            <div class="dia__marcacao__cabecalho">
+                <div class="dia__marcacao__cabecalho-divisao">
+                    <img src="./assets/Foto Luciana Dias.svg">
+                    <div>
+                        <span class="nome-paciente">Luciana Dias</span>
+                        <div class="define__natureza-consulta">
+                            <img src="./assets/Camera.svg">
+                            <p class="tipo-consulta">Consulta remota</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/Chatcirculo1.svg">
+            </div>
+            <div class="dia__marcacao__consulta-traco"></div>
+            <div class="dia__marcacao__resto">
+                <span>14:00 - 15:00 (1 hora)</span>
+                <div class="dia__marcacao__resto__btns-ligar">
+                    <button class="btn__ligar-video" type="button" onclick="">Ligar por vídeo</button>
+                    <button class="btn__ligar-audio" type="button" onclick="">Ligar por aúdio</button>
+                </div>
+            </div>
+        </div>
+        <div class="dia__marcacao__remota">
+            <div class="dia__marcacao__cabecalho">
+                <div class="dia__marcacao__cabecalho-divisao">
+                    <img src="./assets/Foto Marcos Correia.svg">
+                    <div>
+                        <span class="nome-paciente">Marcos Correia</span>
+                        <div class="define__natureza-consulta">
+                            <img src="./assets/Camera.svg">
+                            <p class="tipo-consulta">Consulta remota</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/Chatcirculo1.svg">
+            </div>
+            <div class="dia__marcacao__consulta-traco"></div>
+            <div class="dia__marcacao__resto">
+                <span>17:20 - 18:00 (40 minutos)</span>
+                <div class="dia__marcacao__resto__btns-ligar">
+                    <button class="btn__ligar-video" type="button" onclick="">Ligar por vídeo</button>
+                    <button class="btn__ligar-audio" type="button" onclick="">Ligar por aúdio</button>
+                </div>
+            </div>
+        </div>
+        <div class="dia__marcacao__local">
+            <div class="dia__marcacao__cabecalho">
+                <div class="dia__marcacao__cabecalho-divisao">
+                    <img src="./assets/Foto Larissa Santana.svg">
+                    <div>
+                        <span class="nome-paciente">Larissa Santana</span>
+                        <div class="define__natureza-consulta">
+                            <img src="./assets/pin.svg">
+                            <p class="tipo-consulta">Consulta Local</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/Chatcirculo1.svg">
+            </div>
+            <div class="dia__marcacao__consulta-traco"></div>
+            <div class="dia__marcacao__resto">
+                <span>16:00 - 17:00 (1 hora)</span>
+                <div class="dia__marcacao__resto__btn-endereco">
+                    <button class="btn__ligar-ver-endereco" type="button" onclick="">Ver endereço</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+    </main>    
+</body>
+</html>
