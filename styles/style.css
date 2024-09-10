@@ -1,7 +1,9 @@
 
 @import url("reset.css");
 @import url("header.css");
-@import url("hoje.css");
+@import url("dia.css");
+@import url("rodape.css");
+@import url("botao-flutuante.css");
 
 :root {
     --branco: #FFFFFF;
@@ -16,8 +18,14 @@
 }
 
 body {
+    width: 100%;
+    height: 100vh;
     background-color: var(--fundo);
+    font-family: var(--fonte-padrao);
+}
+
+main {
     padding-left: 8px;
     padding-right: 8px;
-    font-family: var(--fonte-padrao);
+    
 }

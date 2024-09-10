@@ -8,7 +8,8 @@
 .status-bar {
     /*width: 360px;*/
     height: 33px;
-    padding-right: 0em;
+    padding-left: 8px;
+    padding-right: 8px;
     display: flex;
     background-color: var(--branco);
     justify-content: space-between;
@@ -28,6 +29,7 @@
 .cabecalho__resto {
     padding-top: 32px;
     padding-bottom: 22px;
+    padding-left: 8px;
 }
 
 .cabecalho__resto-avatar {

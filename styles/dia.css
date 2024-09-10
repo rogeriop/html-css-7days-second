@@ -17,8 +17,6 @@
 }
 
 .dia__marcacoes {
-    /*width: 360px;*/
-    height: 566px;
     display: flex;
     flex-direction: column;
     gap: 16px;
