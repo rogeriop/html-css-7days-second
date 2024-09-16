@@ -9,6 +9,7 @@
 
 .rodape nav {
     width: 100%;
+
 }
 .rodape__menu {    
 
@@ -34,6 +35,6 @@
 
 .rodape__menu-itens-texto {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 19.2px;
 }

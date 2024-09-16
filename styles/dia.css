@@ -9,7 +9,7 @@
 
 .dia__barra-texto {
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 25.6px;
     text-align: left;
@@ -19,11 +19,12 @@
 .dia__marcacoes {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 16px;
 }
 
 .dia__marcacao__remota, .dia__marcacao__local {
-    /*width: 328px;*/
+    width: 20.5em; /*328px*/
     height: 170px;
     background-color: var(--branco);
     border-radius: 8px;
@@ -44,15 +45,20 @@
     gap: 16px;
 }
 
+.dia__marcacao__cabecalho-divisao-nome-natureza {
+    display: flex;
+    flex-direction: column;
+}
+
 .nome-paciente {
     font-weight: 700;
-    font-size: 14px;
-    line-height: 22.4px;
+    font-size: 0.875rem;
+    line-height: 1.4rem; /*22.4px*/
 }
 
 .tipo-consulta {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 19.2px;
 }
 
@@ -94,7 +100,7 @@
     border-radius: 8px;
     background-color: var(--laranja);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 22.4px;
     color: var(--branco);
     border-width: 0;
@@ -117,7 +123,7 @@
     border-width: 0;
     color: var(--branco);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 22.4px;
 }
 

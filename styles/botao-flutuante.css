@@ -6,10 +6,10 @@
 .botao-flutuante .botao-flutuante-cadastro {
     position: absolute;
     right: 16px;
-    bottom: 500px;
+    bottom: 600px;
 
-    width: 56px;
-    height: 56px;
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
     border-width: 0px;
     filter: drop-shadow(0 3px 6px #4894FF90);
@@ -18,5 +18,12 @@
 
 button.botao-flutuante-cadastro span{
     position: absolute;
+    width: 56px;
+    height: 56px;
+    background-image: url('../assets/botaoMais.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%);
 }
